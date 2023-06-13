@@ -1,0 +1,15 @@
+0:Conv2D 6@5x5
+1:AvgPool 2x2
+2:Conv2D 16@5x5
+3:Conv2D 120@5x5
+4:Dense 84
+5:Dense 10
+6:Prediction
+7:GT
+0,1
+1,2
+2,3
+3,4
+4,5
+5,6
+6,7
