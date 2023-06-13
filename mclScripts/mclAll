@@ -1,0 +1,10 @@
+#!/bin/sh
+
+prefix=$1
+knn=$2
+for file in ./$prefix*
+do
+    echo "$file"
+    outname="out$(basename $file)-$knn"
+    mcl $file --abc -tf "#knn($2)" -o $outname
+done

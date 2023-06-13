@@ -33,6 +33,8 @@ Visualization tool
 
 **models** : Files to build, train and export various models
 
+**mclScripts** : Script files used to generate data using the mcl software
+
 **viz** : React project to start the visualization tool, more info on its usage inside and demo available at https://pivert.labri.fr/flows/index.html.
 
 # File generation
